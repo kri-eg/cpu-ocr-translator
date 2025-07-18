@@ -1,0 +1,8 @@
+# File: requirements.txt
+
+# Core libraries - pinned to a known stable combination
+paddlepaddle==2.6.1
+paddleocr==2.7.0.3
+Pillow
+customtkinter==5.2.2
+numpy==1.26.4
