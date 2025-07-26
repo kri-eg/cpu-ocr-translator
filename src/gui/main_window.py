@@ -52,7 +52,7 @@ class App(ctk.CTk):
         self.translation_label = ctk.CTkLabel(master=self.left_frame, text="Translate To English From:", font=ctk.CTkFont(weight="bold"))
         self.translation_label.grid(row=8, column=0, padx=20, pady=(20, 0), sticky="w")
         
-        languages = ["Spanish", "French", "German", "Chinese", "Russian", "Japanese", "Korean"]
+        languages = ["English", "Spanish", "French", "German", "Chinese", "Russian", "Japanese", "Korean"]
         self.lang_map = {"Spanish": "es", "French": "fr", "German": "de", "Chinese": "ch", "Russian": "ru", "Japanese": "ja", "Korean": "ko"}
         self.source_lang_menu = ctk.CTkOptionMenu(master=self.left_frame, values=languages)
         self.source_lang_menu.grid(row=9, column=0, padx=20, pady=10)
