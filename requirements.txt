@@ -7,3 +7,4 @@ customtkinter==5.2.2
 numpy==1.26.4
 PyMuPDF
 fpdf2
+argostranslate==1.9.0
