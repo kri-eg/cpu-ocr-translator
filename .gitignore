@@ -8,3 +8,11 @@ __pycache__/
 # IDE configuration files
 .idea/
 .vscode/
+
+# Database file
+history.db
+
+# PyInstaller output
+/dist/
+/build/
+*.spec
